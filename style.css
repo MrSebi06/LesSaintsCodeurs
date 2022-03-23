@@ -82,9 +82,9 @@ nav ul{
 	padding : 0px 225px 0px 300px;
 }
 
-
-nav ul li a{
-	position : relative;
+.hover-underline-animation{
+	display: inline-block;
+	position: relative;
 	text-transform: uppercase;
 	text-decoration: none;
 	font-weight: bold;
@@ -93,21 +93,28 @@ nav ul li a{
 	padding : 10px 5px;
 	letter-spacing: 0.5px;
 }
-nav ul li a:after{
-	content : "";
-	position : absolute;
-	background-color: white;
-	height : 2px;
-	width: 0;
-	left : 0;
-	bottom: 5px;
-	transition: 0.3s;
-	border-radius: 3px;
+.hover-underline-animation:hover{
+	color: white;
 }
-nav ul li a:hover:after{
-	width : 100%;
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 3px;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  border-radius: 3px;
+  transition: transform 0.35s ease-out;
 }
-nav ul li a:hover{color : white;
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+   border-radius: 3px;
 }
 /*-------------------HEADER-------------------*/
 
