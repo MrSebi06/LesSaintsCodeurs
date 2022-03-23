@@ -10,11 +10,7 @@
    Taille police           : 22px
    Couleur police          : black / white
 
-   Teddy le hackerzzzzzz
-   Sebiiii
-
 /*-------------------FONTS-------------------*/
-
 @font-face{
 	font-family: "Karla";
 	src: url('fonts/Karla-Regular.woff2');
@@ -49,6 +45,7 @@
 	font-weight: lighter;
 	font-style: normal;
 }
+/*-------------------FONTS-------------------*/
 
 html{
 	background-color: white;
@@ -60,7 +57,6 @@ body{
 }
 
 /*-------------------HEADER-------------------*/
-
 header{
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.9);
@@ -97,7 +93,6 @@ nav ul li a{
 	padding : 10px 5px;
 	letter-spacing: 0.5px;
 }
-
 nav ul li a:after{
 	content : "";
 	position : absolute;
@@ -112,20 +107,75 @@ nav ul li a:after{
 nav ul li a:hover:after{
 	width : 100%;
 }
-nav ul li a:hover{
-	color : white;
+nav ul li a:hover{color : white;
 }
+/*-------------------HEADER-------------------*/
 
 /*-------------------FOOTER-------------------*/
-
-footer{
-	text-align: center;
+footer{text-align: center;
 	font-size : 0.8rem;
 	background-color : #E6E6E6;
 	padding : 20px 0;
 	margin : 0;
 }
+footer p{margin : 0} 
 
-footer p{
-	margin : 0
-} 
+}
+/*-------------------FOOTER-------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
+
+body{
+	margin: 0;
+}
+
+main{
+	padding-top: 60px;
+	text-align: center;
+	height : 1500px;
+}
+
+main > div{padding : 20px 0}
+
+h1{
+	font-weight: lighter;
+	font-size: 2em;
+}
+
+.titre{
+	margin-bottom: 50px;
+}
+
+.logo{
+	margin-left: 40px;
+
+}
+
+.container{display : flex;
+		margin : auto;
+		padding : 80px 0;
+		max-width: 85%;
+		flex-direction : row;
+		flex-wrap : wrap;
+		justify-content : space-between;
+		align-items : center}
+
+.container p{width : 70%;
+			line-height: 60px;
+			font-size : 22px;
+			margin : 0}
+
+.container img{position : static;
+			margin-right: 100px;
+		}
+
+main div:nth-child(1){background-color : #E1E1E1}
+
+/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
