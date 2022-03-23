@@ -67,7 +67,6 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	height: 60px;
-	
 }
 
 nav{
@@ -92,7 +91,6 @@ nav ul li a{
 	font-size: 15px;
 	padding : 10px 5px;
 	letter-spacing: 0.5px;
-	font-family: 'Karla';
 }
 
 nav ul li a:after{
