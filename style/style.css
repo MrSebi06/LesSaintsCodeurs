@@ -67,7 +67,7 @@ header{
 	justify-content: space-around;
 	align-items: center;
 	height: 60px;
-	
+	z-index: 3;
 }
 
 nav{
@@ -126,11 +126,7 @@ footer{text-align: center;
 }
 footer p{margin : 0
 }
-
 /*-------------------FOOTER-------------------*/
-
-
-
 
 
 
@@ -150,10 +146,12 @@ main{
 	height: 6000px;
 }
 
-main > div{padding : 20px 0;
+main > div{
+	padding : 20px 0;
 }
 
-main div:nth-child(1){background-color : #E1E1E1;
+main div:nth-child(1){
+	background-color : #E1E1E1;
 }
 
 section{
@@ -200,7 +198,7 @@ section{
 }
 #sticky7{
 	position : sticky;
-	top : 640px;
+	top : 630px;
 	padding-top: 0;
 }
 #sticky8{
@@ -215,22 +213,24 @@ section{
 }
 
 .eraser{
-	display: inline-block;
+	display:block;
 	position : relative;
-	border: 3px solid black;
-	width : 1200px;
-	height : 28px;
+}
+#eraser1{
+	width : 1150px;
+	height : 10px;
 	border-radius: 10px;
 	background-color: #292929;
 	border-color: #292929;
+	margin: auto;
 	margin-top : 149px;
-  box-shadow: 5px 5px 1px 1px rgba(0,0,0,0.3);
-}
-#eraser1{
-	margin-top : 149px;
+  box-shadow: 3px 3px 1px 1px rgba(0,0,0,0.3);
+  z-index: 2;
 }
 #eraser2{
-	margin-top : 34px;
+	background-color:#F2F2F2;
+	height: 100px;
+	z-index: 1;
 }
 #start{
 	font-size : 50px;
@@ -288,16 +288,19 @@ h1{
 	color: #3B3B3B;
 }
 
-.image1{position : static;
-			margin-top : 50px;
-			height: 500px;
+.image1{
+	position : static;
+	margin-top : 50px;
+	height: 500px;
 }
 
-.image2{position : static;
-			height : 300px;
+.image2{
+	position : static;
+	height : 300px;
 }
 
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
+
 
 
 
