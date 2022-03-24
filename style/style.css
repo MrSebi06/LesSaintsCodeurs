@@ -69,7 +69,9 @@ body{
 	margin: 0;
 }
 
-
+body p{
+	font-size: 1.15em;
+}
 
 
 /*-------------------HEADER-------------------*/
@@ -144,8 +146,8 @@ footer{
 	font-size : 0.8rem;
 	background-color : #E6E6E6;
 	padding : 20px 0;
-	margin : 0;
 }
+
 footer p{
 	margin : 0} 
 /*-------------------FOOTER-------------------*/
@@ -164,7 +166,6 @@ body{
 main{
 	padding-top: 60px;
 	text-align: center;
-	height : 1500px;
 }
 
 main > div{
@@ -224,4 +225,8 @@ main div:nth-child(1){
 
 .tuto ol li{
 	font-size: ;
+}
+
+.tuto .intro{
+	font-size: 1.2em;
 }
