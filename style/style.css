@@ -60,10 +60,14 @@ html{
 	font-family: "Karla";
 }
 
+p::selection, strong::selection, h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, a::selection{
+	background-color: none;
+	color: blue;
+}
+
 body{
 	margin: 0;
 }
-
 
 
 
@@ -209,3 +213,11 @@ main div:nth-child(1){
 }
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
 
+
+
+
+/*---------------------------------------------------------PAGE TUTO----------------------------------------------------------*/
+.tuto section{
+	text-align: left;
+	margin: 0 20% 0% 20%;
+}
