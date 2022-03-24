@@ -10,6 +10,7 @@
    Taille police           : 22px
    Couleur police          : black / white
 
+
 /*-------------------FONTS-------------------*/
 @font-face{
 	font-family: "Karla";
@@ -34,7 +35,7 @@
 
 @font-face{
 	font-family: "Karla";
-	src: url('../fonts/Karla-BoldItalic.woff2');
+	src: url('../	fonts/Karla-BoldItalic.woff2');
 	font-weight: bold;
 	font-style: italic;
 }
@@ -47,6 +48,7 @@
 }
 /*-------------------FONTS-------------------*/
 
+
 html{
 	background-color: white;
 	font-family: "Karla";
@@ -55,6 +57,7 @@ html{
 body{
 	margin: 0;
 }
+
 
 /*-------------------HEADER-------------------*/
 header{
@@ -118,16 +121,17 @@ nav ul{
 }
 /*-------------------HEADER-------------------*/
 
+
 /*-------------------FOOTER-------------------*/
-footer{text-align: center;
+footer{
+	text-align: center;
 	font-size : 0.8rem;
 	background-color : #E6E6E6;
 	padding : 20px 0;
 	margin : 0;
 }
-footer p{margin : 0} 
-
-}
+footer p{
+	margin : 0} 
 /*-------------------FOOTER-------------------*/
 
 
