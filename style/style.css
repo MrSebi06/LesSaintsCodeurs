@@ -13,28 +13,28 @@
 /*-------------------FONTS-------------------*/
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Regular.woff2');
+	src: url('../fonts/Karla-Regular.woff2');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Bold.woff2');
+	src: url('../fonts/Karla-Bold.woff2');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Italic.woff2');
+	src: url('../fonts/Karla-Italic.woff2');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-BoldItalic.woff2');
+	src: url('../fonts/Karla-BoldItalic.woff2');
 	font-weight: bold;
 	font-style: italic;
 }
