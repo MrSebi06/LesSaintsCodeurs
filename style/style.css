@@ -224,7 +224,7 @@ section{
 	border-color: #292929;
 	margin: auto;
 	margin-top : 149px;
-  box-shadow: 3px 3px 1px 1px rgba(0,0,0,0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 2;
 }
 #eraser2{
