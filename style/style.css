@@ -17,35 +17,35 @@
 /*-------------------FONTS-------------------*/
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Regular.woff2');
+	src: url('../fonts/Karla-Regular.woff2');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Bold.woff2');
+	src: url('../fonts/Karla-Bold.woff2');
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Italic.woff2');
+	src: url('../fonts/Karla-Italic.woff2');
 	font-weight: normal;
 	font-style: italic;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-BoldItalic.woff2');
+	src: url('../fonts/Karla-BoldItalic.woff2');
 	font-weight: bold;
 	font-style: italic;
 }
 
 @font-face{
 	font-family: "Karla";
-	src: url('fonts/Karla-Light.woff2');
+	src: url('../fonts/Karla-Light.woff2');
 	font-weight: lighter;
 	font-style: normal;
 }
@@ -274,7 +274,7 @@ main section:nth-child(1) div:nth-child(1) p{
 	padding : 60px 0;
 	max-width: 1150px;
 	flex-direction : row;
-	flex-wrap :wrap;
+	flex-wrap :nowrap;
 	justify-content : space-between;
 	align-items : center;
 }
@@ -303,27 +303,40 @@ main section:nth-child(1) div:nth-child(1) p{
 	margin-bottom : 20px;
 }
 
-.text2{
+.text_2{
 	line-height: 90px;
 }
 #text3{
 	margin-bottom: 30px;
 }
 h2{
-	font-size: 44px;
+	font-size: 49px;
 	margin: 75px 0;
 }
 
-#Guide{
+.title_2{
 	font-size : 58px;
 	margin-top: 150px;
 }
 
-#Familiar{
+.title_1{
 	margin-top: 170px;
 }
 
 #short{
 	width: 55%;
 }
+
+#graph, #website{
+	position: relative;
+	right: 40px;
+}
+
+#writing{
+	position : relative;
+	left : 55px
+}
+
+
+
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
