@@ -53,6 +53,7 @@
 
 html{
 	font-family: "Karla";
+  scroll-behavior: smooth;	
 }
 
 /*-------------------HEADER-------------------*/
@@ -111,6 +112,34 @@ nav ul{
 }
 
 .hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+   border-radius: 3px;
+}
+
+.hover-underline-animation2{
+	position: relative;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+}
+
+
+.hover-underline-animation2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -5px;
+  left: 0;
+  background-color: #DEDEDE;
+  transform-origin: bottom right;
+  border-radius: 3px;
+  transition: transform 0.35s ease-out;
+}
+
+.hover-underline-animation2:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
    border-radius: 3px;
@@ -283,7 +312,7 @@ h2{
 	align-items : center;
 }
 
-.container span{
+.rainbow{
 	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
@@ -310,7 +339,7 @@ h2{
 .text_2{
 	line-height: 90px;
 }
-#text3{
+#text3, #text4{
 	margin-bottom: 30px;
 }
 
