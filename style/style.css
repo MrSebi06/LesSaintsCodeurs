@@ -151,16 +151,14 @@ main > div{
 	padding : 20px 0;
 }
 
-main div:nth-child(1){
+main section:nth-child(1){
 	background-color : #E1E1E1;
 }
 
-main > section:nth-child(1){
-	margin: 0;
-	padding : 0;
-	height : 4300px;
-}
 
+section{
+	margin-bottom: 60px;
+}
 section p{
 	font-size : 24px;
 	font-weight: bolder;
@@ -170,66 +168,68 @@ section p{
 }
 
 main section:nth-child(1) div:nth-child(1) p{
-	padding : 27px 0;
+	padding-bottom : 25px;
 	margin : 0;
 	font-weight: lighter;
 	font-size: 2em;
 }
 
-section div:nth-child(2){
-	padding-top: 80px;
+.banner{
+	padding-top : 19px;
+	padding-bottom: 47px;
 }
 
 .text{
 	display : block;
 	max-width: 1150px;
-	padding : 150px 0;
+	padding-top : 140px; 
+	padding-bottom : 240px;
 	margin : auto;
 	margin-top : 0;
-	margin -bottom : 0;
+	margin-bottom : 0;
 }
 
 #sticky{
 	position : sticky;
-	top : -170px;
+	top : -135px;
 	padding : 160px 0;
 }
 #sticky2{
 	position : sticky;
-	top : 85px;
+	top : 90px;
 }
 #sticky3{
 	position : sticky;
-	top : 165px;
+	top : 170px;
 }
 #sticky4{
 	position : sticky;
-	top : 245px;
+	top : 250px;
 	padding-bottom: 80px;
 }
 #sticky5{
 	position : sticky;
-	top : 475px;
+	top : 480px;
 	padding-top: 0;
 }
 #sticky6{
 	position : sticky;
-	top : 405px;
+	top : 410px;
 	padding-bottom: 80px;
 }
 #sticky7{
 	position : sticky;
-	top : 635px;
+	top : 640px;
 	padding-top: 0;
 }
 #sticky8{
 	position : sticky;
-	top : 565px;
+	top : 570px;
 	padding-bottom: 80px;
 }
 #sticky9{
 	position : sticky;
-	top : 795px;
+	top : 800px;
 	padding-top: 0;
 }
 
@@ -237,6 +237,7 @@ section div:nth-child(2){
 	display:block;
 	position : relative;
 }
+
 #eraser1{
 	width : 1150px;
 	height : 10px;
@@ -244,24 +245,20 @@ section div:nth-child(2){
 	background-color: #292929;
 	border-color: #292929;
 	margin: auto;
-	margin-top : 65px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 2;
 }
 #eraser2{
 	background-color:#F2F2F2;
-	height: 150px;
+	height: 300px;
 	z-index: 1;
 }
 #start{
 	font-size : 50px;
 	color :#292929;
 	margin : 0;
-	padding-top : 130px;
-}
-
-.titre{
-	margin-bottom: 50px;
+	padding-top : 85px;
+	padding-bottom: 180px;
 }
 
 .logo{
@@ -300,11 +297,11 @@ section div:nth-child(2){
 	height : 300px;
 }
 #image3{
-	margin-top: 10px;
+	margin-bottom : 20px;
 }
 
 #text3{
-	line-height: 80px;
+	line-height: 90px;
 	margin-bottom: 30px;
 }
 h2{
