@@ -527,7 +527,7 @@ textarea:focus, textarea:hover{
  }
 
 
-span a{
+#contact_span_a{
     font-size: 19px;
     font-weight: bolder;
     letter-spacing: 1px;
@@ -537,8 +537,8 @@ span a{
     transition: transform .25s;
   }
 
-span a:before,
-span a:after{
+#contact_span_a:before,
+#contact_span_a:after{
   position: absolute;
   content: "SEND MESSAGE";
   height: 55px;
@@ -551,17 +551,17 @@ span a:after{
   border-radius: 10px;
 }
 
-span a:before{
+#contact_span_a:before{
     color: #fff;
     background: #000;
     transform: rotateY(0deg) translateZ(25px);
     
 }
-span a:after{
+#contact_span_a:after{
     color: #000;
     transform: rotateX(90deg) translateZ(25px);
 }
-span a:hover{
+#contact_span_a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
     
 }
