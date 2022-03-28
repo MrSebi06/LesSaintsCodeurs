@@ -117,6 +117,26 @@ nav ul{
    border-radius: 3px;
 }
 
+/*-------------------HEADER-------------------*/
+
+/*-------------------FOOTER-------------------*/
+footer{
+	text-align: center;
+	font-size : 0.8rem;
+	background-color : #E6E6E6;
+	padding : 20px 0;
+}
+footer p{
+	margin : 0
+}
+/*-------------------FOOTER-------------------*/
+
+
+
+
+
+/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
+
 .hover-underline-animation2{
 	position: relative;
 	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
@@ -144,60 +164,40 @@ nav ul{
   transform-origin: bottom left;
    border-radius: 3px;
 }
-/*-------------------HEADER-------------------*/
 
-/*-------------------FOOTER-------------------*/
-footer{
-	text-align: center;
-	font-size : 0.8rem;
-	background-color : #E6E6E6;
-	padding : 20px 0;
-}
-footer p{
-	margin : 0
-}
-/*-------------------FOOTER-------------------*/
-
-
-
-
-
-/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
-
-
-body{
+#index_body{
 	margin: 0;
 }
 
-main{
+#index_main{
 	padding: 60px 0;
 	text-align: center;
 	background-color: #F2F2F2;
 }
 
-main > div{
+#index_main > div{
 	padding : 20px 0;
 }
 
-main section:nth-child(1){
+#index_main section:nth-child(1){
 	background-color : #E1E1E1;
 }
 
-main > section:nth-child(3){
+#index_main > section:nth-child(3){
 	margin-bottom : 0;
 }
 
-main section:nth-child(1) div:nth-child(1) p{
+#index_main section:nth-child(1) div:nth-child(1) p{
 	padding-bottom : 25px;
 	margin : 0;
 	font-weight: lighter;
 	font-size: 2em;
 }
 
-section{
+#index_section{
 	margin-bottom: 60px;
 }
-section p{
+#index_section p{
 	font-size : 24px;
 	font-weight: bolder;
 	color: #3B3B3B;
@@ -205,7 +205,7 @@ section p{
 	line-height: 60px;
 }
 
-h2{
+#guide, #list_of_familiar_words, #graph, #write_better, #website{
 	font-size: 49px;
 	margin-bottom : 87px;
 }
@@ -322,13 +322,13 @@ h2{
 	width : 70%;
 }
 
-.image1{
+#image1{
 	position : static;
 	margin-top : 50px;
 	height: 470px;
 }
 
-.image2{
+#image2{
 	position : static;
 	height : 300px;
 }
@@ -356,17 +356,21 @@ h2{
 	width: 55%;
 }
 
-#graph, #website{
+#graph_img, #website{
 	position: relative;
 	right: 40px;
 }
 
-#writing{
+#write_better_img{
 	position : relative;
 	left : 55px
 }
 
-
+#formulas_img{
+	position : relative;
+	left : 55px;
+	bottom: 30px;
+}
 
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
 
