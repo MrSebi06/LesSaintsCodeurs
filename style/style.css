@@ -51,6 +51,8 @@
 }
 /*-------------------FONTS-------------------*/
 
+
+
 html{
 	font-family: "Karla";
   	scroll-behavior: smooth;	
@@ -59,6 +61,16 @@ html{
 strong{
 	font-weight: bold;
 }
+
+main a{
+	text-decoration: none;
+	color: darkcyan;
+}
+
+main a:visited{
+	color: darkcyan;
+}
+
 
 /*-------------------HEADER-------------------*/
 header{
@@ -76,6 +88,10 @@ header{
 
 nav{
 	width: 100%;
+}
+
+header a{
+	color:  white;
 }
 
 nav ul{
@@ -388,15 +404,16 @@ h2{
 	left: 0;
 	width: 100%;
 	padding: 0;
+	z-index: 0;
 }
 
 .tuto section{
 	margin-top: 11%;
 	padding: 0 5%;
 	position: sticky;
-	top: 25%;
+	top: 18.5%;
 	background-color: #F2F2F2;
-	height: 615px;
+	height: 620px;
 }
 
 .tuto section:before{
@@ -408,7 +425,7 @@ h2{
 	border: none;
 	position: absolute;
 	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
 }
 
 .tuto section p{
@@ -418,8 +435,61 @@ h2{
 	line-height: 60px;
 }
 
+.tuto #intro{
+	z-index: 10;
+}
+
+.tuto #part1{
+	z-index: 11;
+}
+
+.tuto #part2{
+	z-index: 12;
+}
+
+.tuto #part3{
+	z-index: 13;
+}
+
+.tuto #part4{
+	z-index: 14;
+}
+
+.tuto #part5{
+	z-index: 15;
+}
+
+.tuto #part6{
+	z-index: 16;
+}
+
+.tuto #part7{
+	z-index: 17;
+}
+
+.tuto #part8{
+	z-index: 18;
+}
+
+.tuto #part9{
+	z-index: 19;
+}
+
+.tuto #end:before{
+	width: 0;
+	background-color: none;
+}
+
+.tuto #part1 p{
+	font-size: 1.5em;
+}
+
 .tuto #part4 p{
 	font-size: 1.4em;
+}
+
+.tuto #part8 p{
+	font-size: 1.55em;
 }
 
 .tuto li{
@@ -435,7 +505,47 @@ h2{
 }
 
 .tuto nav{
-	z-index: 0;
+	z-index: 1;
 	position: fixed;
-	left: -40%;
+	left: 3%;
+	margin-top: 5%;
+	text-align: left;
+}
+
+.tuto nav li{
+	padding: 0.5em;
+}
+
+.tuto nav a{
+	padding-left: 0px;
+	transition: 0.5s;
+}
+
+.tuto nav a:hover{
+	padding-left: 20px;
+	transition: 0.5s;
+}
+
+.tuto #red{
+	color: indianred;
+}
+
+.tuto #yellow{
+	color: #e6e600;
+}
+
+.tuto #fadeyellow{
+	background-image: linear-gradient(to right, #e6e600, #e6e600, #e6e600, #e6e600, #F0F0F0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
+}
+
+.tuto #texture{
+	background-image: url('../images/beton.jpg');
+	color: black;
+}
+
+.tuto #blackonwhite{
+	background-color: white;
+	color: black;
 }
