@@ -709,6 +709,7 @@ textarea:focus, textarea:hover{
   #contact_body {
     display: flex;
     flex-direction:column;
+    margin : 0
   }
 
   #contact_main {
