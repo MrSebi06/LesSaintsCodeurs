@@ -425,7 +425,7 @@ h2{
 	border: none;
 	position: absolute;
 	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 7px;
 }
 
 .tuto section p{
