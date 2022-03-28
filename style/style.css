@@ -281,8 +281,8 @@ h2{
 	background-color: #292929;
 	border-color: #292929;
 	margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  z-index: 2;
+  	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  	z-index: 2;
 }
 #eraser2{
 	background-color:#F2F2F2;
@@ -382,5 +382,25 @@ h2{
 	position: fixed;
 	left: 0;
 	width: 100%;
+	padding: 0;
 }
 
+.tuto section{
+	margin-top: 11%;
+	padding: 0 5%;
+	position: sticky;
+	top: 25%;
+	background-color: #F2F2F2;
+}
+
+.tuto section:before{
+	content: "";
+	width: 90%;
+	height: 10px;
+	left: 5%;
+	background-color: #292929;
+	border: none;
+	position: absolute;
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
