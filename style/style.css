@@ -690,78 +690,8 @@ textarea:focus, textarea:hover{
   transition: all 0.3s ease-out;
 }
 
-.icons-input a:nth-child(1) span {
-  color: #0077B5;
-}
-.icons-input a:nth-child(2) span {
-  color: #1DA1F2;
-}
-.icons-input a:nth-child(3) span{ 
-  color: #4267B2;
-}
-.icons-input a:nth-child(4) span {
-  color: #3A3B3C;
-}
-
-@media screen and (min-width: 0) and (max-width: 900px) {
 
 
-  #contact_body {
-    display: flex;
-    flex-direction:column;
-    margin : 0
-  }
-
-  #contact_main {
-    height: 1800px;
-    width:100%;
-    overflow:scroll;
-  }
-
-  .animation {
-  width:100%;
-  }
-
-  .animation img {
-  width: 300px;
-  }
-
-  .animation p {
-    text-align: center;
-  }
-  .dec-input img {
-    height:300px;
-    
-  }
-
-  .big-pan {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    height: 1500px;
-  }
-
-  
-
-  .pan-1 {
-    width: fit-content;
-    height: 500px;
-    
-  }
-
-  .pan-2 {
-    width: fit-content;
-    height:500px;
-  }
-
-  .panicon-input {
-    position: relative;
-    top: 500px;
-    right: 250px;
-  }
-  
-}
 
 /*---------------------------------------------------------PAGE CONTACT---------------------------------------------------------*/
 
