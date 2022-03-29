@@ -51,13 +51,11 @@
 }
 /*-------------------FONTS-------------------*/
 
+
+
 html{
   font-family: "Karla";
-  scroll-behavior: smooth;  
-}
-
-body{
-  margin: 0;
+    scroll-behavior: smooth;  
 }
 
 ::selection{
@@ -65,10 +63,24 @@ body{
   color: black;
 }
 
+<<<<<<< HEAD
+::selection{
+  background-color: lightcyan;
+  color: black;
+}
+
+=======
+>>>>>>> parent of 7b5b9d9 (Merge branch 'main' of https://github.com/MrSebi06/LesSaintsCodeurs)
 strong{
   font-weight: bold;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> parent of 7b5b9d9 (Merge branch 'main' of https://github.com/MrSebi06/LesSaintsCodeurs)
 /*-------------------HEADER-------------------*/
 header{
   width: 100%;
@@ -85,6 +97,10 @@ header{
 
 nav{
   width: 100%;
+}
+
+header a{
+  color:  white;
 }
 
 nav ul{
@@ -130,26 +146,6 @@ nav ul{
    border-radius: 3px;
 }
 
-/*-------------------HEADER-------------------*/
-
-/*-------------------FOOTER-------------------*/
-footer{
-  text-align: center;
-  font-size : 0.8rem;
-  background-color : #E6E6E6;
-  padding : 20px 0;
-}
-footer p{
-  margin : 0
-}
-/*-------------------FOOTER-------------------*/
-
-
-
-
-
-/*---------------------------------------------------------PAGE INDEX par TRUONG Teddy---------------------------------------------------------*/
-
 .hover-underline-animation2{
   position: relative;
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
@@ -177,39 +173,64 @@ footer p{
   transform-origin: bottom left;
    border-radius: 3px;
 }
+/*-------------------HEADER-------------------*/
 
-#index_body{
-  background-color: #F2F2F2;
+/*-------------------FOOTER-------------------*/
+footer{
+  text-align: center;
+  font-size : 0.8rem;
+  background-color : #E6E6E6;
+  padding : 20px 0;
 }
-#index_main{
-  padding-top : 60px;
+footer p{
+  margin : 0
+}
+/*-------------------FOOTER-------------------*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
+
+
+body{
+  margin: 0;
+}
+
+main{
+  padding: 60px 0;
   text-align: center;
   background-color: #F2F2F2;
 }
 
-#index_main > div{
+main > div{
   padding : 20px 0;
 }
 
-#index_main section:nth-child(1){
+main section:nth-child(1){
   background-color : #E1E1E1;
 }
 
-#index_main > section:nth-child(3){
+main > section:nth-child(3){
   margin-bottom : 0;
 }
 
-#index_main section:nth-child(1) div:nth-child(1) p{
+main section:nth-child(1) div:nth-child(1) p{
   padding-bottom : 25px;
   margin : 0;
   font-weight: lighter;
   font-size: 2em;
 }
 
-.index_section{
+#index_main section{
   margin-bottom: 60px;
 }
-.index_section p{
+
+#index_main section p{
   font-size : 24px;
   font-weight: bolder;
   color: #3B3B3B;
@@ -217,17 +238,17 @@ footer p{
   line-height: 60px;
 }
 
-.title1, .title2{
+h2{
   font-size: 49px;
   margin-bottom : 87px;
 }
 
-.index_banner{
+.banner{
   padding-top : 19px;
   padding-bottom: 47px;
 }
 
-.index_text{
+.text{
   display : block;
   max-width: 1150px;
   padding-top : 140px; 
@@ -293,8 +314,8 @@ footer p{
   background-color: #292929;
   border-color: #292929;
   margin: auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 2;
 }
 #eraser2{
   background-color:#F2F2F2;
@@ -313,7 +334,7 @@ footer p{
   margin-left: 40px;
 }
 
-.index_container{
+.container{
   display : flex;
   margin : auto;
   padding : 60px 0;
@@ -324,82 +345,88 @@ footer p{
   align-items : center;
 }
 
-.index_container p{
-  width : 70%;
-}
-
 .rainbow{
   background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
 }
 
-#index_image1{
+.container p{
+  width : 70%;
+}
+
+.image1{
   position : static;
   margin-top : 50px;
   height: 470px;
 }
 
-#index_image2{
+.image2{
   position : static;
   height : 300px;
 }
+#image3{
+  margin-bottom : 20px;
+}
 
-.index_text{
+.text_2{
   line-height: 90px;
 }
-#index_text3{
+#text3, #text4{
   margin-bottom: 30px;
 }
 
-#index_text4{
-  margin-top : 50px;
-}
-
-.index_title_2{
-  font-size : 44px;
-  margin-top: 170px;
-}
-
-.index_title_1{
+.title_2{
   font-size : 58px;
   margin-top: 165px;
 }
 
-#index_short{
+.title_1{
+  margin-top: 170px;
+}
+
+#short{
   width: 55%;
 }
-#loop_img{
-  margin-bottom : 60px;
-}
 
-#pen_img{
-  margin-bottom: 50px;
-}
-#graph_img{
-  margin-bottom: 60px;
-}
-#graph_img, #website_img{
+#graph, #website{
   position: relative;
-  right: 50px;
+  right: 40px;
 }
 
-#write_better_img{
+#writing{
   position : relative;
-  left : 70px;
-  margin-bottom: 70px;
+  left : 55px
 }
 
-#formulas_img{
-  position : relative;
-  left : 55px;
-  bottom: 90px;
-}
+
 
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
 
 
-/*---------------------------------------------------------PAGE CONTACT par Kethia-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------PAGE CONTACT-------------------------------------------------------*/
 
 #contact_main {
     padding-top: 60px;
@@ -790,7 +817,29 @@ textarea:focus, textarea:hover{
 /*---------------------------------------------------------PAGE CONTACT---------------------------------------------------------*/
 
 
-/*---------------------------------------------------------PAGE WEBSITE par Sebastian---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
 
 
 .tuto{
@@ -1009,10 +1058,33 @@ textarea:focus, textarea:hover{
   color: black;
 }
 
-/*---------------------------------------------------------PAGE WEBSITE---------------------------------------------------------*/
+/*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
 
 
-/*---------------------------------------------------------PAGE FORMULAS par Ilya---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------FORMULAS-------------------*/
 #formulas_body{
 	margin: 0px;
 	text-align: center;
@@ -1158,5 +1230,5 @@ margin-bottom: auto;
 	float: center;
 }
 
-/*---------------------------------------------------------PAGE FORMULAS---------------------------------------------------------*/
+/*-------------------FORMULAS-------------------*/
 
