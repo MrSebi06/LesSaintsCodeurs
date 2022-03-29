@@ -58,6 +58,11 @@ html{
   	scroll-behavior: smooth;	
 }
 
+::selection{
+	background-color: lightcyan;
+	color: black;
+}
+
 strong{
 	font-weight: bold;
 }
