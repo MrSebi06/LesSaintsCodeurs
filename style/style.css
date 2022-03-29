@@ -16,110 +16,85 @@
 
 /*-------------------FONTS-------------------*/
 @font-face{
-	font-family: "Karla";
-	src: url('../fonts/Karla-Regular.woff2');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Karla";
+  src: url('../fonts/Karla-Regular.woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face{
-	font-family: "Karla";
-	src: url('../fonts/Karla-Bold.woff2');
-	font-weight: bold;
-	font-style: normal;
+  font-family: "Karla";
+  src: url('../fonts/Karla-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face{
-	font-family: "Karla";
-	src: url('../fonts/Karla-Italic.woff2');
-	font-weight: normal;
-	font-style: italic;
+  font-family: "Karla";
+  src: url('../fonts/Karla-Italic.woff2');
+  font-weight: normal;
+  font-style: italic;
 }
 
 @font-face{
-	font-family: "Karla";
-	src: url('../fonts/Karla-BoldItalic.woff2');
-	font-weight: bold;
-	font-style: italic;
+  font-family: "Karla";
+  src: url('../fonts/Karla-BoldItalic.woff2');
+  font-weight: bold;
+  font-style: italic;
 }
 
 @font-face{
-	font-family: "Karla";
-	src: url('../fonts/Karla-Light.woff2');
-	font-weight: lighter;
-	font-style: normal;
+  font-family: "Karla";
+  src: url('../fonts/Karla-Light.woff2');
+  font-weight: lighter;
+  font-style: normal;
 }
 /*-------------------FONTS-------------------*/
 
-
-
 html{
-	font-family: "Karla";
-  	scroll-behavior: smooth;	
+  font-family: "Karla";
+  scroll-behavior: smooth;  
 }
-
-::selection{
-	background-color: lightcyan;
-	color: black;
-}
-
-strong{
-	font-weight: bold;
-}
-
-main a{
-	text-decoration: none;
-	color: darkcyan;
-}
-
-main a:visited{
-	color: darkcyan;
-}
-
 
 /*-------------------HEADER-------------------*/
 header{
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.9);
-	position: fixed;
-	text-align: center;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	height: 60px;
-	z-index: 3;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  z-index: 3;
 }
 
 nav{
-	width: 100%;
-}
-
-header a{
-	color:  white;
+  width: 100%;
 }
 
 nav ul{
-	display: flex;
-	list-style: none;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	padding : 0px 225px 0px 300px;
+  display: flex;
+  list-style: none;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding : 0px 225px 0px 300px;
 }
 
 .hover-underline-animation{
-	display: inline-block;
-	position: relative;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-weight: bold;
-	color: #E5E5E5;
-	font-size: 15px;
-	padding : 10px 5px;
-	letter-spacing: 0.5px;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  color: #E5E5E5;
+  font-size: 15px;
+  padding : 10px 5px;
+  letter-spacing: 0.5px;
 }
 .hover-underline-animation:hover{
-	color: white;
+  color: white;
 }
 
 .hover-underline-animation:after {
@@ -142,9 +117,29 @@ nav ul{
    border-radius: 3px;
 }
 
+/*-------------------HEADER-------------------*/
+
+/*-------------------FOOTER-------------------*/
+footer{
+  text-align: center;
+  font-size : 0.8rem;
+  background-color : #E6E6E6;
+  padding : 20px 0;
+}
+footer p{
+  margin : 0
+}
+/*-------------------FOOTER-------------------*/
+
+
+
+
+
+/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
+
 .hover-underline-animation2{
-	position: relative;
-	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  position: relative;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
@@ -169,540 +164,254 @@ nav ul{
   transform-origin: bottom left;
    border-radius: 3px;
 }
-/*-------------------HEADER-------------------*/
-
-/*-------------------FOOTER-------------------*/
-footer{
-	text-align: center;
-	font-size : 0.8rem;
-	background-color : #E6E6E6;
-	padding : 20px 0;
-}
-footer p{
-	margin : 0
-}
-/*-------------------FOOTER-------------------*/
-
-
-
-
-
-/*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
-
 
 #index_body{
-	margin: 0;
+  margin: 0;
 }
 
 #index_main{
-	padding: 60px 0;
-	text-align: center;
-	background-color: #F2F2F2;
+  padding: 60px 0;
+  text-align: center;
+  background-color: #F2F2F2;
 }
 
 #index_main > div{
-	padding : 20px 0;
+  padding : 20px 0;
 }
 
 #index_main section:nth-child(1){
-	background-color : #E1E1E1;
+  background-color : #E1E1E1;
 }
 
 #index_main > section:nth-child(3){
-	margin-bottom : 0;
+  margin-bottom : 0;
 }
 
 #index_main section:nth-child(1) div:nth-child(1) p{
-	padding-bottom : 25px;
-	margin : 0;
-	font-weight: lighter;
-	font-size: 2em;
+  padding-bottom : 25px;
+  margin : 0;
+  font-weight: lighter;
+  font-size: 2em;
 }
 
-#index_main section{
-	margin-bottom: 60px;
+.index_section{
+  margin-bottom: 60px;
+}
+.index_section p{
+  font-size : 24px;
+  font-weight: bolder;
+  color: #3B3B3B;
+  margin : 0;
+  line-height: 60px;
 }
 
-#index_main section p{
-	font-size : 24px;
-	font-weight: bolder;
-	color: #3B3B3B;
-	margin : 0;
-	line-height: 60px;
-}
-
-#index_section h2{
-	font-size: 49px;
-	margin-bottom : 87px;
+.title1, .title2{
+  font-size: 49px;
+  margin-bottom : 87px;
 }
 
 .index_banner{
-	padding-top : 19px;
-	padding-bottom: 47px;
+  padding-top : 19px;
+  padding-bottom: 47px;
 }
 
 .index_text{
-	display : block;
-	max-width: 1150px;
-	padding-top : 140px; 
-	padding-bottom : 240px;
-	margin : auto;
-	margin-top : 0;
-	margin-bottom : 0;
+  display : block;
+  max-width: 1150px;
+  padding-top : 140px; 
+  padding-bottom : 240px;
+  margin : auto;
+  margin-top : 0;
+  margin-bottom : 0;
 }
 
 #sticky{
-	position : sticky;
-	top : -135px;
-	padding : 160px 0;
+  position : sticky;
+  top : -135px;
+  padding : 160px 0;
 }
 #sticky2{
-	position : sticky;
-	top : 90px;
+  position : sticky;
+  top : 90px;
 }
 #sticky3{
-	position : sticky;
-	top : 170px;
+  position : sticky;
+  top : 170px;
 }
 #sticky4{
-	position : sticky;
-	top : 250px;
-	padding-bottom: 80px;
+  position : sticky;
+  top : 250px;
+  padding-bottom: 80px;
 }
 #sticky5{
-	position : sticky;
-	top : 480px;
-	padding-top: 0;
+  position : sticky;
+  top : 480px;
+  padding-top: 0;
 }
 #sticky6{
-	position : sticky;
-	top : 410px;
-	padding-bottom: 80px;
+  position : sticky;
+  top : 410px;
+  padding-bottom: 80px;
 }
 #sticky7{
-	position : sticky;
-	top : 640px;
-	padding-top: 0;
+  position : sticky;
+  top : 640px;
+  padding-top: 0;
 }
 #sticky8{
-	position : sticky;
-	top : 570px;
-	padding-bottom: 80px;
+  position : sticky;
+  top : 570px;
+  padding-bottom: 80px;
 }
 #sticky9{
-	position : sticky;
-	top : 800px;
-	padding-top: 0;
+  position : sticky;
+  top : 800px;
+  padding-top: 0;
 }
 
 .eraser{
-	display:block;
-	position : relative;
+  display:block;
+  position : relative;
 }
 
 #eraser1{
-	width : 1150px;
-	height : 10px;
-	border-radius: 10px;
-	background-color: #292929;
-	border-color: #292929;
-	margin: auto;
-  	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  	z-index: 2;
+  width : 1150px;
+  height : 10px;
+  border-radius: 10px;
+  background-color: #292929;
+  border-color: #292929;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 2;
 }
 #eraser2{
-	background-color:#F2F2F2;
-	height: 270px;
-	z-index: 1;
+  background-color:#F2F2F2;
+  height: 270px;
+  z-index: 1;
 }
 #start{
-	font-size : 50px;
-	color :#292929;
-	margin : 0;
-	padding-top : 85px;
-	padding-bottom: 180px;
+  font-size : 50px;
+  color :#292929;
+  margin : 0;
+  padding-top : 85px;
+  padding-bottom: 180px;
 }
 
 .logo{
-	margin-left: 40px;
+  margin-left: 40px;
 }
 
-#index_container{
-	display : flex;
-	margin : auto;
-	padding : 60px 0;
-	max-width: 1150px;
-	flex-direction : row;
-	flex-wrap :nowrap;
-	justify-content : space-between;
-	align-items : center;
+.index_container{
+  display : flex;
+  margin : auto;
+  padding : 60px 0;
+  max-width: 1150px;
+  flex-direction : row;
+  flex-wrap :nowrap;
+  justify-content : space-between;
+  align-items : center;
+}
+
+.index_container p{
+  width : 70%;
 }
 
 .rainbow{
-	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
 }
 
-#index_container p{
-	width : 70%;
-}
-
 #index_image1{
-	position : static;
-	margin-top : 50px;
-	height: 470px;
+  position : static;
+  margin-top : 50px;
+  height: 470px;
 }
 
 #index_image2{
-	position : static;
-	height : 300px;
-}
-#image3{
-	margin-bottom : 20px;
+  position : static;
+  height : 300px;
 }
 
-.index_text2{
-	line-height: 90px;
+.index_text{
+  line-height: 90px;
 }
-#index_text3, #index_text4{
-	margin-bottom: 30px;
-}
-
-.title_2{
-	font-size : 58px;
-	margin-top: 165px;
+#index_text3{
+  margin-bottom: 30px;
 }
 
-.title_1{
-	margin-top: 170px;
+#index_text4{
+  margin-top : 50px;
 }
 
-#short{
-	width: 55%;
+.index_title_2{
+  font-size : 44px;
+  margin-top: 170px;
 }
 
-#graph, #website{
-	position: relative;
-	right: 40px;
+.index_title_1{
+  font-size : 58px;
+  margin-top: 165px;
 }
 
-#writing{
-	position : relative;
-	left : 55px
+#index_short{
+  width: 55%;
+}
+#loop_img{
+  margin-bottom : 60px;
 }
 
+#pen_img{
+  margin-bottom: 50px;
+}
+#graph_img{
+  margin-bottom: 60px;
+}
+#graph_img, #website_img{
+  position: relative;
+  right: 50px;
+}
 
+#write_better_img{
+  position : relative;
+  left : 70px;
+  margin-bottom: 70px;
+}
+
+#formulas_img{
+  position : relative;
+  left : 55px;
+  bottom: 90px;
+}
 
 /*---------------------------------------------------------PAGE INDEX---------------------------------------------------------*/
 
 
 
-/*---------------------------------------------------------PAGE WEBSITE---------------------------------------------------------*/
-
-.tuto{
-	padding: 5% 20%;
-}
-
-.tuto > div{
-	position: fixed;
-	left: 0;
-	width: 100%;
-	padding: 0;
-	z-index: 0;
-}
-
-.tuto section{
-	margin-top: 11%;
-	padding: 0 5%;
-	position: sticky;
-	top: 18.4%;
-	background-color: #F2F2F2;
-	height: 620px;
-}
-
-.tuto section:before{
-	content: "";
-	width: 90%;
-	height: 10px;
-	left: 5%;
-	background-color: #292929;
-	border: none;
-	position: absolute;
-	border-radius: 5px;
-	box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 7px;
-}
-
-.tuto section p{
-	font-size : 1.6em;
-	color: #3B3B3B;
-	margin : 0;
-	line-height: 60px;
-}
-
-.tuto #intro{
-	z-index: 10;
-}
-
-.tuto #part1{
-	z-index: 11;
-}
-
-.tuto #part2{
-	z-index: 12;
-}
-
-.tuto #part3{
-	z-index: 13;
-}
-
-.tuto #part4{
-	z-index: 14;
-}
-
-.tuto #part5{
-	z-index: 15;
-}
-
-.tuto #part6{
-	z-index: 16;
-}
-
-.tuto #part7{
-	z-index: 17;
-}
-
-.tuto #part8{
-	z-index: 18;
-}
-
-.tuto #part9{
-	z-index: 19;
-}
-
-.tuto #end:before{
-	width: 0;
-	background-color: none;
-}
-
-.tuto #part1 p{
-	font-size: 1.5em;
-}
-
-.tuto #part4 p{
-	font-size: 1.4em;
-}
-
-.tuto #part8 p{
-	font-size: 1.55em;
-}
-
-.tuto li{
-	font-size: 1.4em;
-}
-
-.tuto ul{
-	text-align: left;
-}
-
-.tuto h2{
-	margin-bottom: 50px;
-}
 
-.tuto nav{
-	z-index: 1;
-	position: fixed;
-	left: 3%;
-	margin-top: 5%;
-	text-align: left;
-}
 
-.tuto nav li{
-	padding: 0.5em;
-}
 
-.tuto nav a{
-	padding-left: 0px;
-	transition: 0.5s;
-}
 
-.tuto nav a:hover{
-	padding-left: 20px;
-	transition: 0.5s;
-}
 
-.tuto #red{
-	color: indianred;
-}
 
-.tuto #yellow{
-	color: #e6e600;
-}
 
-.tuto #fadeyellow{
-	background-image: linear-gradient(to right, #e6e600, #e6e600, #e6e600, #e6e600, #F0F0F0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
-}
 
-.tuto #texture{
-	background-image: url('../images/beton.jpg');
-	color: black;
-}
 
-.tuto #blackonwhite{
-	background-color: white;
-	color: black;
-}
 
-/*---------------------------------------------------------PAGE WEBSITE---------------------------------------------------------*/
 
 
-/*---------------------------------------------------------PAGE FORMULAS---------------------------------------------------------*/
-#formulas_body{
-	margin: 0px;
-	text-align: center;
 
-}
 
-#formulas_title_1{
-	padding : 40px;
-	background-color: #E6E6E6;
-}
-#formulas_h1{
-	text-align: center;
-	margin : 0;
-	padding-top : 60px;
-	font-weight: bolder;
-	font-size : 4em;
-}
-.formulas_titre{
-	text-decoration: underline;
-}
 
 
 
-#banner{
-	display: block;
-	background-color: #E6E6E6;
-	width: 100%;
-	text-align: center;
-	
 
 
-}
 
-.formulas_class1{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
 
-}
 
 
-.formulas_image1{
-	float: center;
 
-}
-
-
-.formulas_class2{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image2{
-	float: center;
-
-}
-
-.formulas_class3{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image3{
-	float: center;
-}
-
-
-.formulas_class4{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image4{
-	float: center;
-}
-.formulas_class5{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image5{
-	float: center;
-}
-
-
-.formulas_class6{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image6{
-	float: center;
-}  
-
-.formulas_class7{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image7{
-	float: center;
-}
-
-
-
-.formulas_class8{
-display: block;
-width: ;
-text-align: center;
-margin-bottom: auto;
-
-}
-
-
-.formulas_image8	{
-	float: center;
-}
-
-/*---------------------------------------------------------PAGE FORMULAS---------------------------------------------------------*/
 
 /*---------------------------------------------------------PAGE CONTACT-------------------------------------------------------*/
 
@@ -767,30 +476,30 @@ margin-bottom: auto;
 }
 
 .pan-1 {
-	max-width:500px;
-	width:100%;
+  max-width:500px;
+  width:100%;
   max-height: 100%;
   height: 100%;
-	padding: 25px 25px;
+  padding: 25px 25px;
 
 }
 
 
 .user-input {
-	margin:20px;
+  margin:20px;
 }
-  
+
 .user-input input {
     position: relative;
-	height: 50px;
-	width: 400px;
-	outline:none;
-	padding:0px 20px;
-	font-size:15px;
+  height: 50px;
+  width: 400px;
+  outline:none;
+  padding:0px 20px;
+  font-size:15px;
   color: black;
   font-weight: 500;
-	border-bottom-width:2px;
-	transition: all 0.6s ease;
+  border-bottom-width:2px;
+  transition: all 0.6s ease;
   cursor: pointer;
   font-family: "Karla";
   font-size: 20px;
@@ -802,14 +511,14 @@ margin-bottom: auto;
 
 @keyframes glow {
   0%{
-  	filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   100%{
    filter: hue-rotate(360deg);
   }
 }    
-  
-  
+
+
 
 .user-input input:focus{
     max-width: 500%;
@@ -819,11 +528,11 @@ margin-bottom: auto;
 
 
 textarea{
- 	max-width: 430px;
-	width: 100%;
-	/*min-height: 100px;
-	max-height: 100px;
-	height:100%;*/
+  max-width: 430px;
+  width: 100%;
+  /*min-height: 100px;
+  max-height: 100px;
+  height:100%;*/
   height:50px;
   transition: all 0.3s ease-out;
   padding-top: 5px;
@@ -835,7 +544,7 @@ textarea{
   font-size: 15px;
   font-weight: bold;
 }
-  
+
 textarea:focus, textarea:hover{
     border: 5px solid #E6E6E6;
     outline: none;
@@ -884,7 +593,7 @@ textarea:focus, textarea:hover{
     color: #fff;
     background: #000;
     transform: rotateY(0deg) translateZ(25px);
-    
+
 }
 #contact_span_a:after{
     color: #000;
@@ -892,7 +601,7 @@ textarea:focus, textarea:hover{
 }
 #contact_span_a:hover{
     transform: translateZ(-25px) rotateX(-90deg);
-    
+
 }
 
 
@@ -1038,6 +747,7 @@ textarea:focus, textarea:hover{
   #contact_body {
     display: flex;
     flex-direction:column;
+    margin : 0
   }
 
   #contact_main {
@@ -1059,7 +769,7 @@ textarea:focus, textarea:hover{
   }
   .dec-input img {
     height:300px;
-    
+
   }
 
   .big-pan {
@@ -1070,12 +780,12 @@ textarea:focus, textarea:hover{
     height: 1500px;
   }
 
-  
+
 
   .pan-1 {
     width: fit-content;
     height: 500px;
-    
+
   }
 
   .pan-2 {
@@ -1088,7 +798,376 @@ textarea:focus, textarea:hover{
     top: 500px;
     right: 250px;
   }
-  
+
 }
 
 /*---------------------------------------------------------PAGE CONTACT---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
+
+.tuto a{
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.tuto a:visited{
+  color: darkcyan;
+}
+
+.tuto{
+  padding: 5% 20%;
+}
+
+.tuto .flex1{
+  display: flex;
+}
+
+.tuto > div{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 0;
+  z-index: 0;
+}
+
+.tuto section{
+  margin-top: 11%;
+  padding: 0 5%;
+  position: sticky;
+  top: 18.4%;
+  background-color: #F2F2F2;
+  height: 620px;
+}
+
+.tuto section:before{
+  content: "";
+  width: 90%;
+  height: 10px;
+  left: 5%;
+  background-color: #292929;
+  border: none;
+  position: absolute;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 7px;
+}
+
+.tuto section p{
+  font-size : 1.6em;
+  color: #3B3B3B;
+  margin : 0;
+  line-height: 60px;
+}
+
+.tuto #intro{
+  z-index: 10;
+}
+
+.tuto #part1{
+  z-index: 11;
+}
+
+.tuto #part2{
+  z-index: 12;
+}
+
+.tuto #part3{
+  z-index: 13;
+}
+
+.tuto #part4{
+  z-index: 14;
+}
+
+.tuto #part5{
+  z-index: 15;
+}
+
+.tuto #part6{
+  z-index: 16;
+}
+
+.tuto #part7{
+  z-index: 17;
+}
+
+.tuto #part8{
+  z-index: 18;
+}
+
+.tuto #part9{
+  z-index: 19;
+}
+
+.tuto #end:before{
+  width: 0;
+  background-color: none;
+}
+
+.tuto #part1 p{
+  font-size: 1.5em;
+}
+
+.tuto #part4 p{
+  font-size: 1.4em;
+}
+
+.tuto #part8 p{
+  font-size: 1.55em;
+}
+
+.tuto li{
+  font-size: 1.4em;
+  color: #3B3B3B;
+}
+
+.tuto ul{
+  text-align: left;
+}
+
+.tuto h2{
+  margin-bottom: 50px;
+}
+
+.tuto nav{
+  z-index: 1;
+  position: fixed;
+  left: 3%;
+  margin-top: 5%;
+  text-align: left;
+}
+
+.tuto nav li{
+  padding: 0.5em;
+}
+
+.tuto nav a{
+  padding-left: 0px;
+  transition: 0.5s;
+}
+
+.tuto nav a:hover{
+  padding-left: 20px;
+  transition: 0.5s;
+}
+
+.tuto #red{
+  color: indianred;
+}
+
+.tuto #yellow{
+  color: #e6e600;
+}
+
+.tuto #fadeyellow{
+  background-image: linear-gradient(to right, #e6e600, #e6e600, #e6e600, #e6e600, #F0F0F0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.tuto #texture{
+  background-image: url('../images/beton.jpg');
+  color: black;
+}
+
+.tuto #blackonwhite{
+  background-color: white;
+  color: black;
+}
+
+/*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------FORMULAS-------------------*/
+#formulas_body{
+	margin: 0px;
+	text-align: center;
+
+}
+
+#formulas_title_1{
+	padding : 40px;
+	background-color: #E6E6E6;
+}
+
+
+#formulas_body h1{
+	text-align: center;
+	margin : 0;
+	padding-top : 60px;
+	font-weight: bolder;
+	font-size : 4em;
+}
+.formulas_titre{
+	text-decoration: underline;
+}
+
+
+
+#banner{
+	display: block;
+	background-color: #E6E6E6;
+	width: 100%;
+	text-align: center;
+	
+
+
+}
+
+.formulas_class1{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image1{
+	float: center;
+
+}
+
+
+.formulas_class2{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image2{
+	float: center;
+
+}
+
+.formulas_class3{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image3{
+	float: center;
+}
+
+
+.formulas_class4{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image4{
+	float: center;
+}
+.formulas_class5{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image5{
+	float: center;
+}
+
+
+.formulas_class6{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image6{
+	float: center;
+}  
+
+.formulas_class7{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image7{
+	float: center;
+}
+
+
+
+.formulas_class8{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image8	{
+	float: center;
+}
+
+/*-------------------FORMULAS-------------------*/
+
