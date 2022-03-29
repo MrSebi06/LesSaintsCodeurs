@@ -379,7 +379,14 @@ footer p{
 
 #contact_main {
     padding-top: 60px;
-    height: 1100px;
+    height: 1210px;
+    margin: 0px;
+  
+    
+}
+
+#contact_body {
+  margin:0;
 }
 
 .animation {
@@ -483,18 +490,15 @@ footer p{
   
 
 .user-input input:focus{
-    max-width: 500%;
+    max-width: 500px;
     width: 100%;
     border-bottom-width:4px;
 }
 
 
 textarea{
- 	max-width: 430px;
+ 	max-width: 400px;
 	width: 100%;
-	/*min-height: 100px;
-	max-height: 100px;
-	height:100%;*/
   height:50px;
   transition: all 0.3s ease-out;
   padding-top: 5px;
@@ -517,7 +521,7 @@ textarea:focus, textarea:hover{
 #contact_span{
   position: relative;
   display: inline-flex;
-  width: 100%;
+  width: 400px;
   height: 55px;
   margin: 0 15px;
   perspective: 1000px;
@@ -542,7 +546,7 @@ textarea:focus, textarea:hover{
   position: absolute;
   content: "SEND MESSAGE";
   height: 55px;
-  width: 450px;
+  width: 410px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -612,7 +616,7 @@ textarea:focus, textarea:hover{
   display:flex;
   justify-content: flex-end;
   position: relative;
-  top: 25px;
+  top: 75px;
 }
 
 
@@ -682,13 +686,6 @@ textarea:focus, textarea:hover{
 }
 
 
-.icons-input a span{
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 60px;
-  margin-left: 10px;
-  transition: all 0.3s ease-out;
-}
 
 
 
