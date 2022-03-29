@@ -795,7 +795,18 @@ textarea:focus, textarea:hover{
 
 .tuto{
   padding: 5% 20%;
+  background-color: #F2F2F2;
+  text-align: center;
 }
+
+.tuto h1{
+  font-size: 2em;
+}
+
+.tuto h2{
+  font-size: 3.5em;
+}
+
 
 .tuto a{
   text-decoration: none;
