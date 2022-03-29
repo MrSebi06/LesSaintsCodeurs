@@ -542,7 +542,7 @@ h2{
 .tuto #fadeyellow{
 	background-image: linear-gradient(to right, #e6e600, #e6e600, #e6e600, #e6e600, #F0F0F0);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
+  -webkit-text-fill-color: transparent; 
 }
 
 .tuto #texture{
@@ -554,6 +554,7 @@ h2{
 	background-color: white;
 	color: black;
 }
+/*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
 
 
 
@@ -568,7 +569,9 @@ h2{
 	padding : 40px;
 	background-color: #E6E6E6;
 }
-h1{
+
+
+#formulas_body h1{
 	text-align: center;
 	margin : 0;
 	padding-top : 60px;
