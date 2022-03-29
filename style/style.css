@@ -60,6 +60,15 @@ body{
   margin: 0;
 }
 
+::selection{
+  background-color: lightcyan;
+  color: black;
+}
+
+strong{
+  font-weight: bold;
+}
+
 /*-------------------HEADER-------------------*/
 header{
   width: 100%;
@@ -878,9 +887,11 @@ textarea:focus, textarea:hover{
   font-size: 24pt;
 }
 
+
 .tuto #part4{
   z-index: 14;
 }
+
 
 .tuto #part5{
   z-index: 15;
@@ -895,13 +906,16 @@ textarea:focus, textarea:hover{
   margin: 0 7px;
 }
 
+
 .tuto #part6{
   z-index: 16;
 }
 
+
 .tuto #part7{
   z-index: 17;
 }
+
 
 .tuto #part8{
   z-index: 18;
@@ -913,9 +927,11 @@ textarea:focus, textarea:hover{
   overflow-x: scroll;
 }
 
+
 .tuto #part9{
   z-index: 19;
 }
+
 
 .tuto #end:before{
   width: 0;
