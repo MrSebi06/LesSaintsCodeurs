@@ -169,6 +169,9 @@ footer p{
    border-radius: 3px;
 }
 
+#index_body{
+  background-color: #F2F2F2;
+}
 #index_main{
   padding-top : 60px;
   text-align: center;
