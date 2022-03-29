@@ -67,14 +67,7 @@ strong{
   font-weight: bold;
 }
 
-main a{
-  text-decoration: none;
-  color: darkcyan;
-}
 
-main a:visited{
-  color: darkcyan;
-}
 
 
 /*-------------------HEADER-------------------*/
@@ -837,8 +830,21 @@ textarea:focus, textarea:hover{
 
 /*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
 
+.tuto a{
+  text-decoration: none;
+  color: darkcyan;
+}
+
+.tuto a:visited{
+  color: darkcyan;
+}
+
 .tuto{
   padding: 5% 20%;
+}
+
+.tuto .flex1{
+  display: flex;
 }
 
 .tuto > div{
