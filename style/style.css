@@ -236,12 +236,12 @@ footer p{
 	margin-bottom : 87px;
 }
 
-.banner{
+.index_banner{
 	padding-top : 19px;
 	padding-bottom: 47px;
 }
 
-.text{
+.index_text{
 	display : block;
 	max-width: 1150px;
 	padding-top : 140px; 
@@ -327,7 +327,7 @@ footer p{
 	margin-left: 40px;
 }
 
-.container{
+#index_container{
 	display : flex;
 	margin : auto;
 	padding : 60px 0;
@@ -344,17 +344,17 @@ footer p{
   -webkit-text-fill-color: transparent;    /*"PERFECT" ARC-EN-CIEL*/
 }
 
-.container p{
+#index_container p{
 	width : 70%;
 }
 
-.image1{
+#index_image1{
 	position : static;
 	margin-top : 50px;
 	height: 470px;
 }
 
-.image2{
+#index_image2{
 	position : static;
 	height : 300px;
 }
@@ -362,10 +362,10 @@ footer p{
 	margin-bottom : 20px;
 }
 
-.text_2{
+.index_text2{
 	line-height: 90px;
 }
-#text3, #text4{
+#index_text3, #index_text4{
 	margin-bottom: 30px;
 }
 
