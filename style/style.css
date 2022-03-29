@@ -830,6 +830,11 @@ textarea:focus, textarea:hover{
 
 /*---------------------------------------------------------PAGE TUTO---------------------------------------------------------*/
 
+
+.tuto{
+  padding: 5% 20%;
+}
+
 .tuto a{
   text-decoration: none;
   color: darkcyan;
@@ -837,14 +842,6 @@ textarea:focus, textarea:hover{
 
 .tuto a:visited{
   color: darkcyan;
-}
-
-.tuto{
-  padding: 5% 20%;
-}
-
-.tuto .flex1{
-  display: flex;
 }
 
 .tuto > div{
@@ -861,7 +858,7 @@ textarea:focus, textarea:hover{
   position: sticky;
   top: 18.4%;
   background-color: #F2F2F2;
-  height: 620px;
+  height: 690px;
 }
 
 .tuto section:before{
@@ -887,16 +884,45 @@ textarea:focus, textarea:hover{
   z-index: 10;
 }
 
+
 .tuto #part1{
   z-index: 11;
 }
+
+.tuto #flex1{
+  display: flex;
+  font-size: 1em;
+  align-items: center;
+}
+
 
 .tuto #part2{
   z-index: 12;
 }
 
+
 .tuto #part3{
   z-index: 13;
+}
+
+.tuto #arial{
+  font-family: 'Arial';
+}
+
+.tuto #verdana{
+  font-family: 'Verdana';
+}
+
+.tuto #size{
+  font-size: 1.5em;
+}
+
+.tuto #ten{
+  font-size: 10pt;
+}
+
+.tuto #twentyfour{
+  font-size: 24pt;
 }
 
 .tuto #part4{
@@ -905,6 +931,15 @@ textarea:focus, textarea:hover{
 
 .tuto #part5{
   z-index: 15;
+}
+
+.tuto #part5 #flex1{
+  font-size: 1em;
+  list-style: circle;
+}
+
+.tuto #part5 img{
+  margin: 0 7px;
 }
 
 .tuto #part6{
@@ -917,6 +952,12 @@ textarea:focus, textarea:hover{
 
 .tuto #part8{
   z-index: 18;
+}
+
+.tuto #scroll{
+  font-size: 1.5em;
+  word-break: break-all;
+  overflow-x: scroll;
 }
 
 .tuto #part9{
