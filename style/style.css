@@ -293,7 +293,7 @@ footer p{
   background-color: #292929;
   border-color: #292929;
   margin: auto;
-  margin-top: 120px;
+  top : -50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   z-index: 2;
 }
@@ -301,7 +301,9 @@ footer p{
   background-color:#F2F2F2;
   height: 270px;
   z-index: 1;
+  top : -50px;
 }
+
 #start{
   font-size : 50px;
   color :#292929;
