@@ -554,3 +554,151 @@ h2{
 	background-color: white;
 	color: black;
 }
+
+
+
+/*-------------------FORMULAS-------------------*/
+#formulas_body{
+	margin: 0px;
+	text-align: center;
+
+}
+
+#formulas_title_1{
+	padding : 40px;
+	background-color: #E6E6E6;
+}
+h1{
+	text-align: center;
+	margin : 0;
+	padding-top : 60px;
+	font-weight: bolder;
+	font-size : 4em;
+}
+.formulas_titre{
+	text-decoration: underline;
+}
+
+
+
+#banner{
+	display: block;
+	background-color: #E6E6E6;
+	width: 100%;
+	text-align: center;
+	
+
+
+}
+
+.formulas_class1{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image1{
+	float: center;
+
+}
+
+
+.formulas_class2{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image2{
+	float: center;
+
+}
+
+.formulas_class3{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image3{
+	float: center;
+}
+
+
+.formulas_class4{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image4{
+	float: center;
+}
+.formulas_class5{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image5{
+	float: center;
+}
+
+
+.formulas_class6{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image6{
+	float: center;
+}  
+
+.formulas_class7{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image7{
+	float: center;
+}
+
+
+
+.formulas_class8{
+display: block;
+width: ;
+text-align: center;
+margin-bottom: auto;
+
+}
+
+
+.formulas_image8	{
+	float: center;
+}
+
+/*-------------------FORMULAS-------------------*/
