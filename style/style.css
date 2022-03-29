@@ -56,6 +56,10 @@ html{
   scroll-behavior: smooth;  
 }
 
+body{
+  margin: 0;
+}
+
 /*-------------------HEADER-------------------*/
 header{
   width: 100%;
@@ -163,10 +167,6 @@ footer p{
   transform: scaleX(1);
   transform-origin: bottom left;
    border-radius: 3px;
-}
-
-#index_body{
-  margin: 0;
 }
 
 #index_main{
